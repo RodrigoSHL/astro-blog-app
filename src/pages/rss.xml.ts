@@ -19,7 +19,7 @@ export const GET: APIRoute = async ({ params, request, site }) => {
       title: data.title,
       pubDate: data.date,
       description: data.description,
-      link: `post/${slug}!`,
+      link: `post/${slug}`,
     })),
 
     // (optional) inject custom xml
